@@ -13,7 +13,6 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
 // Stub
-@Repository
 public class PostRepository {
     private static volatile AtomicLong countId = new AtomicLong();
 
