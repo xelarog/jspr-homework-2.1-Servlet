@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 // Stub
 public class PostRepository {
-    private static volatile AtomicLong countId = new AtomicLong();
+    private AtomicLong countId = new AtomicLong();
 
     private ConcurrentHashMap<Long, Post> posts = new ConcurrentHashMap<>();
 
